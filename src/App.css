@@ -78,6 +78,10 @@ button{
     align-items: center;
 }
 
+.quotePhrase{
+    text-align: center;
+}
+
 .Author{
     width: 100%;
     text-align: end;
