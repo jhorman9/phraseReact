@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.App{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.QuoteBox{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 25px rosybrown;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    flex-wrap: wrap;
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+@media (max-width: 550px){
+    .QuoteBox{
+        width: 90%;
+        margin: auto;
+        height: auto;
+        padding-top: 45px;
+        padding-bottom: 60px;
+    }
+}
+
+.QuoteContent{
+    height: 100%;
+    width: 100%;
+}
+
+button{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    bottom: 25px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: inherit;
+}
+
+.phrases{
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Author{
+    width: 100%;
+    text-align: end;
+    margin-top: 25px;
+}
+
+#quote{
+    padding-right: 5px;
+    font-size: 50px;
+}
